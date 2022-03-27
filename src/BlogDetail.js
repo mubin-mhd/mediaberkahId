@@ -42,8 +42,8 @@ function BlogDetail() {
           <h1 className="font-semibold text-red-500 text-xl mb-5">
             {data.title}
           </h1>
-          <p className="font-light text-md mb-5">{data.desc}</p>
-          <p className="text-[#333] font-light text-md">
+          <p className="font-normal text-md mb-5">{data.desc}</p>
+          <p className="text-[#333] font-normal text-md">
             written by :{data.name}
           </p>
           <button

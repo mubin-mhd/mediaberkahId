@@ -9,10 +9,10 @@ function Navbar() {
       </ul>
       <ul className="flex space-x-5">
         <Link to="/">
-          <li className="text-lg">Home</li>
+          <li className="text-lg font-semibold">Home</li>
         </Link>
         <Link to="/create">
-          <li className="text-lg">New Blog</li>
+          <li className="text-lg font-semibold">New Blog</li>
         </Link>
       </ul>
     </div>

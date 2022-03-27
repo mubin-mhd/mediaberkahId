@@ -9,8 +9,10 @@ function BlogList({ Blogs, title }) {
         {Blogs.map((res, index) => (
           <Link key={index} to={`/blogdetail/${res.id}`}>
             <div className="p-2">
-              <h1 className="text-xl text-red-500">{res.title}</h1>
-              <p className="text-md font-light">{res.desc}</p>
+              <h1 className="text-xl text-red-500 font-semibold">
+                {res.title}
+              </h1>
+              <p className="text-md font-normal">{res.desc}</p>
             </div>
           </Link>
         ))}

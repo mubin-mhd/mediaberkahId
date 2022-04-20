@@ -1,31 +1,31 @@
-import Navbar from "./Navbar";
-import Home from "./Home";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Create from "./Create";
-import BlogDetail from "./BlogDetail";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Create from "./component/Tulisan/Create";
+import BlogDetail from "./component/Tulisan/BlogDetail";
 import NotFound from "./NotFound";
+import Navbar from "./component/Navbar/Navbar";
+import Dashboard from "./page/Dashboard/Dashboard";
+import DaftarSurah from "./page/QuranTafsir/Surah/DaftarSurah";
+import DetailSurah from "./page/QuranTafsir/Surah/DetailSurah";
+import DetailTafsir from "./page/QuranTafsir/Tafsir/DetailTafsir";
 
 function App() {
   return (
-    <Router>
-      <div className="mx-auto  max-w-4xl">
+    <BrowserRouter>
+      <div className="mx-auto w-full bg-white shadow-md  rounded-md relative">
         <Navbar />
-        <Switch>
-          <Route exact path="/">
-            <Home />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/create" element={<Create />} />
+          <Route path="/quran" element={<DaftarSurah />} />
+          <Route path="/quran/:id" element={<DetailSurah />} />
+          <Route path="/tafsir" element={<DetailTafsir />}>
+            <Route path=":id" element={<DetailTafsir />} />
           </Route>
-          <Route path="/create">
-            <Create />
-          </Route>
-          <Route path="/blogdetail/:id">
-            <BlogDetail />
-          </Route>
-          <Route path="*">
-            <NotFound />
-          </Route>
-        </Switch>
+          <Route path="/blogdetail/:id" element={<NotFound />} />
+          <Route path="*" element={<BlogDetail />} />
+        </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 

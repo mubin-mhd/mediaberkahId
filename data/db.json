@@ -1,21 +1,24 @@
 {
   "blogs": [
     {
-      "id": 3,
-      "name": "arif",
-      "title": "how to create react app?",
-      "desc": "making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy."
+      "title": "Selalu ada harapan bagi mereka yang sering berdo’a, selalu ada jalan bagi mereka yang sering berusaha.",
+      "desc": "unknown",
+      "id": 4
     },
     {
-      "title": "",
-      "desc": "",
-      "name": "Mubin",
-      "id": 8
+      "title": "Ketika hatimu berharap kepada seseorang maka Allah timpakan ke atas kamu pedihnya sebuah pengharapan. Suaya kamu mengetahui bahwa Allah sangat mencemburui hati yang berharap selain Dia. Maka Allah menghalangimu dari perkara tersebut agar kamu kembali berharap kepada-Nya. (Ali bin Abi thalib)",
+      "desc": "unknown",
+      "id": 5
     },
     {
-      "desc": "",
-      "name": "Mubin",
-      "id": 9
+      "title": "Siapa yang menempuh jalan untuk mencari ilmu, maka Allah akan mudahkan baginya jalan menuju surga.\" (HR Muslim, no. 2699). ",
+      "desc": "unknown",
+      "id": 6
+    },
+    {
+      "title": "Dari Abdullah bin Umar ia berkata: “Rasulullah Saw memegang kedua pundakku seraya bersabda, ‘Jadilah kamu di dunia ini seakan-akan kamu orang asing atau orang yang melewati suatu jalan.’ Ibnu Umar berkata.” Apabila kamu berada di sore hari janganlah kamu menunggu (melakukan sesuatu) hingga pagi hari (datang).  Apabila kamu berada di pagi hari jangankah menunggu (melakukan sesuatu) hingga sore (datang). Gunakan waktu sehatmu untuk menghadapi sakitmu, dan waktu hidupmu untuk menghadapi matimu.\" (HR. Bukhari) ",
+      "desc": "unkwown",
+      "id": 7
     }
   ]
 }

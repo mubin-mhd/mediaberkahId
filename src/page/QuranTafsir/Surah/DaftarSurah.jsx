@@ -44,7 +44,7 @@ function DaftarSurah() {
               </thead>
               <tbody>
                 {dataSurah.map((res) => (
-                  <tr className="border p-2">
+                  <tr key={res.nomor} className="border p-2">
                     <td className=" p-2 text-center">{res.nomor}</td>
                     <td className=" p-2 text-center">{res.nama_latin}</td>
                     <td className=" p-2 text-center">

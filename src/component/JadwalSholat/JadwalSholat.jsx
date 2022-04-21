@@ -3,7 +3,7 @@ import React from "react";
 function JadwalSholat({ jadwalSholat }) {
   return (
     <div>
-      <table class="table-auto w-full mx-auto trasition duration-300 ">
+      <table className="table-auto w-full mx-auto trasition duration-300 ">
         <thead className="bg-[#4BA931]  p-3">
           <tr className="">
             <th className="text-white p-2">Imsak</th>

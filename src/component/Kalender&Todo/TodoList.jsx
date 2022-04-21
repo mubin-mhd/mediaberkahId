@@ -1,5 +1,4 @@
 import React from "react";
-import { useSprings, animated } from "react-spring";
 
 function TodoList({ todoList, handleDeleteTodo, handleEdit }) {
   return (

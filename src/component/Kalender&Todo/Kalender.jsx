@@ -33,7 +33,7 @@ function Kalender() {
               <button
                 id="buttonCalender"
                 onClick={handleMasehi}
-                className="text-left flex-grow focused text-[#4BA931] border-b-2  focus:border-b-4 focus:border-[#4BA931] border-[#4BA931] py-2 text-lg font-semibold text-white px-1"
+                className="text-left flex-grow focused  border-b-2  focus:border-b-4 focus:border-[#4BA931] border-[#4BA931] py-2 text-lg font-semibold text-white px-1"
               >
                 Kalender
               </button>

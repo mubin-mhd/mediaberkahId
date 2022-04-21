@@ -11,7 +11,6 @@ function DetailTafsir() {
     await axios.get(`https://equran.id/api/tafsir/${id}`).then((response) => {
       const data = response.data.tafsir;
       const dataTitle = response.data;
-      console.log(dataTitle);
       setTitleSurah(dataTitle);
       setDetailTafsir(data);
     });

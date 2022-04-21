@@ -153,24 +153,6 @@ function Navbar() {
                           </a>
                         </li>
                       </Link>
-                      <Link to="/tafsir">
-                        <li>
-                          <a
-                            class="dropdown-item text-sm py-2 px-4  block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 font-base"
-                            href="#"
-                          >
-                            Tafsir
-                          </a>
-                        </li>
-                      </Link>
-                      <li>
-                        <a
-                          class="dropdown-item text-sm py-2 px-4  block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100 font-base"
-                          href="#"
-                        >
-                          Murottal
-                        </a>
-                      </li>
                     </ul>
                   </div>
                 </div>
